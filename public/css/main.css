@@ -1,0 +1,537 @@
+html {
+    height: 100%;
+}
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+body {
+    font-family: "Tajawal", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.blue {
+    color: #073eb3;
+}
+/* ------- Header -------  */
+header {
+    height: 80%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox-item {
+    margin: 10px;
+}
+.left-header {
+    display: flex;
+    flex-direction: column;
+}
+.left-header a {
+    margin-left: 10px;
+}
+.left-header i {
+    font-size: 40px;
+    color: silver;
+    margin-right: 10px;
+}
+
+.add-icon-container {
+    width: 20%;
+}
+.add-icon-container label {
+    font-size: 14px;
+}
+.add-text-container {
+    margin-top: 2px;
+    white-space: nowrap;
+}
+.middle-header {
+}
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 5px;
+}
+.logo-image {
+    width: 60%;
+    height: 50%;
+}
+input {
+    text-align: right;
+}
+input:focus {
+    outline: none;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.search-container input {
+    width: 40%;
+    height: 30px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+.search-container i {
+    font-size: 25px;
+    color: silver;
+}
+.right-header {
+    display: flex;
+    width: 10%;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.login-page {
+    text-decoration: none;
+    color: silver;
+}
+.login-page i {
+    font-size: 40px;
+}
+
+/* -------NavBar-------  */
+
+.nav-container {
+    /* background-color: #888888; */
+    background-color: silver;
+}
+.nav-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav-container a {
+    text-decoration: none;
+    color: #073eb3;
+    padding: 10px;
+    display: block;
+}
+.nav-container a:hover {
+    background-color: #cfcfcf;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+}
+
+/* -------index Content-------  */
+
+.main-title {
+    text-align: center;
+    color: #073eb3;
+}
+.main-title h2 {
+    margin: 0;
+}
+#main-grid-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.image-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 5px;
+    border: 1px solid silver;
+    max-width: 80%;
+}
+
+.commSeperator {
+    border: 1px solid silver;
+    width: 100%;
+}
+.commTitle {
+    display: block;
+    max-width: 100%;
+    max-height: 60px;
+    padding: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+}
+.commImage {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.commImage img {
+    width: 100%;
+    height: 100%;
+}
+/* -----------show Commodity----------- */
+
+.posterContainer {
+    width: 60%;
+    margin: 0 auto;
+}
+.posterHead {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: silver;
+}
+.posterLocation {
+    margin-bottom: 10px;
+}
+
+.posterTime {
+    margin-bottom: 10px;
+}
+
+.color {
+    color: #073eb3;
+}
+.posterTitle {
+    padding: 20px 10px 0 0;
+}
+.posterMiddle {
+    border: 1px solid silver;
+    margin-bottom: 100px;
+}
+
+.posterCommodity {
+    width: 80%;
+}
+.posterCommodity p {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.posterImages {
+    width: 100%;
+    margin: auto;
+}
+
+.posterImages img {
+    max-width: 100%;
+    height: auto;
+}
+.posterContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: silver;
+
+    margin-bottom: 50px;
+}
+
+.posterContact i {
+    font-size: 40px;
+}
+
+.posterAsk {
+    width: 80%;
+}
+.posterSubmit {
+    background-color: #fff;
+    border-radius: 4px;
+    color: #073eb3;
+    padding: 5px 10px;
+}
+.posterLast {
+    margin-bottom: 10px;
+}
+
+.posterCommentsHead {
+    background-color: silver;
+    padding: 10px;
+}
+.posterCommentsHead div {
+    margin-top: 10px;
+}
+.posterCommentBody {
+    border: 1px solid silver;
+}
+.posterComments {
+    margin-bottom: 50px;
+}
+
+/* ----- End Show Commodity ---- */
+/* ------login-----  */
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+    display: block;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.login-wrap {
+    width: 100%;
+    margin: auto;
+    max-width: 525px;
+    min-height: 670px;
+    position: relative;
+
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.login-html {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 90px 70px 50px 70px;
+    background: rgba(40, 57, 101, 0.9);
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: all 0.4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check {
+    display: none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button {
+    text-transform: uppercase;
+}
+.login-html .tab {
+    font-size: 22px;
+    margin-right: 15px;
+    padding-bottom: 5px;
+    margin: 0 15px 10px 0;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab {
+    color: #fff;
+    border-color: #1161ee;
+}
+.login-form {
+    min-height: 345px;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.login-form .group {
+    margin-bottom: 15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button {
+    width: 100%;
+    color: #fff;
+    display: block;
+}
+.login-form .group .input,
+.login-form .group .button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.login-form .group input[data-type="password"] {
+    text-security: circle;
+    -webkit-text-security: circle;
+}
+.login-form .group .label {
+    color: #aaa;
+    font-size: 12px;
+}
+.login-form .group .button {
+    background: #1161ee;
+}
+.login-form .group label .icon {
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after {
+    content: "";
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    transition: all 0.2s ease-in-out 0s;
+}
+.login-form .group label .icon:before {
+    left: 3px;
+    width: 5px;
+    bottom: 6px;
+    transform: scale(0) rotate(0);
+}
+.login-form .group label .icon:after {
+    top: 6px;
+    right: 0;
+    transform: scale(0) rotate(0);
+}
+.login-form .group .check:checked + label {
+    color: #fff;
+}
+.login-form .group .check:checked + label .icon {
+    background: #1161ee;
+}
+.login-form .group .check:checked + label .icon:before {
+    transform: scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after {
+    transform: scale(1) rotate(-45deg);
+}
+.login-html
+    .sign-in:checked
+    + .tab
+    + .sign-up
+    + .tab
+    + .login-form
+    .sign-in-htm {
+    transform: rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm {
+    transform: rotate(0);
+}
+
+.hr {
+    height: 2px;
+    margin: 60px 0 50px 0;
+    background: rgba(255, 255, 255, 0.2);
+}
+.foot-lnk {
+    text-align: center;
+}
+/*end login */
+
+/* ------ add Commodity ------- */
+.addCommContainer {
+    text-align: right;
+    background-color: silver;
+    width: 80%;
+    padding: 10px;
+    margin: 50px auto;
+    border-radius: 9px;
+}
+.postLabel {
+    color: #073eb3;
+}
+.postTitle {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.postSection {
+    cursor: pointer;
+    width: 50%;
+    max-width: 100px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.postContact {
+    padding: 5px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+}
+#postDetails {
+    text-align: right;
+    padding-left: 600px;
+    max-width: 100%;
+}
+.submitContainer {
+    margin-top: 30px;
+}
+.submitButton {
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.outline:focus {
+    outline: none;
+}
+button:focus {
+    outline: none;
+}
+.postImage {
+    cursor: pointer;
+}
+button:hover {
+    background-color: #fff;
+}
+
+.postImage {
+}
+#image-field {
+    max-width: 800px;
+    max-height: 300px;
+}
+/* -------Footer-------  */
+
+footer {
+    color: #073eb3;
+    background-color: silver;
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
+}
+
+/*  ----------Media Queries---------- */
+@media only screen and (max-width: 1010px) {
+    #main-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    #main-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #main-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    img {
+        max-width: 50%;
+    }
+    .add-icon-container i {
+        font-size: 20px;
+    }
+    .right-header i {
+        font-size: 20px;
+    }
+}
